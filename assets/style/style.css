@@ -64,7 +64,9 @@ h2{
     background-color: transparent;
 }
 
-#services .card{
+#services .card,
+#NewGames .card,
+#Favourites .card{
     margin-bottom: 1.5rem;
 }
 
@@ -89,6 +91,10 @@ h2{
     #services .card-body{
         min-height: 191px;
     }
+
+    #Favourites .card-body{
+        min-height: 311.06px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up)*/
@@ -98,6 +104,8 @@ h2{
     #services .card-body{
         min-height: auto;
     }
+
+    
 }
 
 /* xl devices (large desktops, 1200px and up)*/
@@ -106,5 +114,9 @@ h2{
     /* Make all service cards the same height for consistency */
     #services .card-body{
         min-height: 217.59px;
+    }
+
+    #Favourites .card-body{
+        min-height: 337.59px;
     }
 }
