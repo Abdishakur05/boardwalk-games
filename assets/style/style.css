@@ -27,6 +27,19 @@ h3{
     color: var(--highlight-color);
 }
 
+/*Navbar*/
+
+#navbar{
+    background-color: #3a2620;
+}
+
+#navbar .logo{
+    width: 30px;
+}
+
+
+
+
 /* 
 .container,
 .row{
