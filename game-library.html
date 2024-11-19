@@ -37,7 +37,7 @@
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="index.html#service">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#events">Events</a>
@@ -253,6 +253,74 @@
                 </div>
             </div>
         </section>
+
+        <section id="reserve" class="container section">
+            <form action="success.html" method="GET">
+                <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Reserve a game</h2>
+                </div>
+                
+
+                    <div class="col-12">
+                        <p> Reserve a board game for your next visit to Boardwalk Games. 
+                            Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" name="exampleFormControlInput1" required>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" name="exampleFormControlInput1" required>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-8">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Select Game</label>
+                            <select class="form-select form-select-md mb-3" aria-label=".form-select-lg example" name="exampleFormControlInput1" required>
+                                <option value="">Select game</option>
+                                <option value="1">Galaxy Pioneers</option>
+                                <option value="2">Mystic Woods</option>
+                                <option value="3">Captain's Gambit</option>
+                                <option value="4">Critter Quest</option>
+                                <option value="5">Setters of Catan</option>
+                                <option value="6">Monopoly</option>
+                                <option value="7">Exploding Kittens
+                                </option>
+                                <option value="8">Cluedo</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Requested date</label>
+                            <input type="datetime-local" class="form-control" id="exampleFormControlInput1" name="exampleFormControlInput1" required>
+                        </div>
+                    </div>
+                
+                
+                </div>
+                <input type="submit" value="Submit" class="custom-button-outline">
+            </form>
+
+            
+        </section>
+
     </main>
 
     <footer  id="contact" class="mt-auto">

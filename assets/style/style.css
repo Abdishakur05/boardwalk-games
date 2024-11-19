@@ -179,6 +179,9 @@ main .table-dark * {
         
     }
    
+    #reserve{
+        width: 60%;
+    }
    
 }
 
