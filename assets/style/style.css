@@ -1,7 +1,7 @@
 /*Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-/*CSS Varoables */
+/*CSS Variables */
 :root{
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
@@ -13,6 +13,7 @@
 
 body{
     font-family:var(--primary-font);
+    padding-top: 57.64px;
 }
 
 h1,
@@ -144,9 +145,24 @@ main .table-dark * {
     
 }
 
+.student-discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
 
-
-
+#events .table {
+    /* events table font size small enough that 
+      the table doesn't overflow on xs screens. 
+      Size set back to 1rem in a media query 
+      for sm screens and up */
+    font-size: 0.7rem;
+} 
 
 /* 
 .container,
