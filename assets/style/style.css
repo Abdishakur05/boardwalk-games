@@ -131,6 +131,23 @@ h2{
     background-color: transparent;
 }
 
+main .table-dark * {
+    background-color: transparent;
+    color: black;
+}
+
+#events button{
+    width: 95%;
+    border-radius: 0;
+    background-color: var(--highlight-color);
+    border: 1px solid var(--highlight-color);
+    
+}
+
+
+
+
+
 /* 
 .container,
 .row{
@@ -156,6 +173,13 @@ h2{
     #Favourites .card-body{
         min-height: 311.06px;
     }
+
+    #events button{
+        width: 300px;
+        
+    }
+   
+   
 }
 
 /* Large devices (small laptops, 992px and up)*/
